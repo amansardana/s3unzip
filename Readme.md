@@ -9,8 +9,10 @@ AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
 Serverless Installation: `npm install -g serverless`
 
 After you have go setup, use the following command:
+
 **Install Dep**:
 `curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh`
+
 **Deploy**:
 `make deploy`
 
@@ -26,6 +28,7 @@ which will further trigger `unzip-files.amansardana.com` for each individual rec
 `unzip-files.amansardana.com` will download and unzip the file and upload unzip content to `unzip-files.amansardana.com`
 
 **Endpoint:**
+
 POST Request:
 ```
 {
@@ -36,4 +39,5 @@ POST Request:
 ```
 
 **Sample Zip:**
+
 https://www.sample-videos.com/download-sample-zip.php

@@ -4,8 +4,11 @@ It is a test program to unzip a zip file uploaded to a s3 bucket and upload unzi
 
 ### Setup
 To test you will need to setup golang and serverless environment.
+
 Go Installation: https://golang.org/doc/install
+
 AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+
 Serverless Installation: `npm install -g serverless`
 
 After you have go setup, use the following command:

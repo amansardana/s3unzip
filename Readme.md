@@ -16,6 +16,12 @@ After you have go setup, use the following command:
 **Install Dep**:
 `curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh`
 
+**Checkout Code:**
+```
+mkdir -p $GOPATH/src/amansardana/s3unzip
+git clone git@github.com:amansardana/s3unzip.git
+```
+
 **Deploy**:
 `make deploy`
 
